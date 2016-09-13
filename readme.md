@@ -8,10 +8,10 @@ This is a simple example showing you how to setup and configure CLion and get st
 * [GNU ARM Embedded Toolchain](https://launchpad.net/gcc-arm-embedded/+download).
 
 # To get started:
-1. Download and install CLion and TDM-GCC.
+1. Download and install CLion, the GNU Toolchain, and TDM-GCC.
 2. Download and extract an SDK to a folder of your choice.
-3. Clone this example to a folder of your choice. CLion has a buildt in version control system so you can even do this from within CLion. 
-4. Open the project by clicking "Open Project" on the Welcome screen, then navigate to the folder where you cloned the project, and click "OK". 
+3. Clone this example to a folder of your choice. 
+4. Open the project by clicking "Open Project" on the Welcome screen, then navigate to the folder where you cloned the project, and click "OK" (CLion has a buildt in version control system so you can even do this from whithin CLion). 
 ![WelcomeScreen](/images/WelcomeScreen.png?raw=true "Welcome Screen")
 ![SelectPath](/images/SelectPath.jpg?raw=true "Select Path")
 5. Click "File->Settings->Build, Execution, Deployment->Toolchains" and configure CLion like this:
