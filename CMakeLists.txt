@@ -22,7 +22,8 @@ include_directories(
 
 
 ## Include all source files
-set(SOURCE_FILES main.c
+set(SOURCE_FILES
+        main.c
         ${SDK_ROOT_FOLDER}/components/drivers_nrf/delay/nrf_delay.c
         ${SDK_ROOT_FOLDER}/components/toolchain/gcc/gcc_startup_nrf51.s
         ${SDK_ROOT_FOLDER}/components/toolchain/system_nrf51.c)
@@ -33,9 +34,9 @@ add_executable(${PROJECT_NAME}.elf ${SOURCE_FILES})
 
 ## Set additional project-specific flags for compilers like e.g.:
 # '-O0' for Optimization level 0.
-# '-Werror' to tread all warnings as errors.
+# '-Werror' to treat all warnings as error.
 # '-lc -lrdimon -u _printf_float' for printf with floating points.
-SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O0 -lc -lrdimon -u _printf_float") # <- Add extra project-specific flags for C compiler.
+SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O0") # <- Add extra project-specific flags for C compiler.
 SET(CMAKE_ASM_FLAGS "${CMAKE_ASM_FLAGS}") # <- Add extra project-specific flags for ASM compiler.
 
 ## Create .hex and .bin files after linking project

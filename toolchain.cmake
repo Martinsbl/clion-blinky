@@ -1,5 +1,6 @@
 INCLUDE(CMakeForceCompiler)
 SET(CMAKE_SYSTEM_NAME Generic)
+SET(CMAKE_SYSTEM_VERSION 1)
 
 #Make sure this is the absolute path to your GNU compiler install folder. Remember to get the version number correct.
 CMAKE_FORCE_C_COMPILER("C:/Program Files (x86)/GNU Tools ARM Embedded/5.4 2016q2/bin/arm-none-eabi-gcc.exe" GNU)
