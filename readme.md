@@ -29,3 +29,9 @@ so that it points to your nrf5x_common.ld file.
 so that it points to where you have installed your GNU toolchain.
 10. CMake is caching some of your settings and file which can be frustrating source of bugs and errors. The toolchain.cmake file is one of the files that gets cached. So after you have made changes to this file you will need to delete this cache before the changes will take place. You can do this by clicking "Tools->CMake->Show Generated CMake Files in Explorer" and then delete the folder CLion shows you. After that click "Tools->CMake->Reset Cache and Reload Project".
 ![Reload project](/images/DeleteCache.png?raw=true "Reload project")
+
+
+PS:
+If you are unlucky like me you will stumble into a bug in CLion. The bug makes it so that the #include files are not recognized in CLion unless you inlcude a complete relative path to the header file. The project will compile even though you don't, but CLion will not index your project correctly and display helpful auto-complete features.
+![Bug](/images/Bug.png?raw=true "Bug")
+This bug is reported to JetBrains and discussed [here](https://youtrack.jetbrains.com/issue/CPP-3962)

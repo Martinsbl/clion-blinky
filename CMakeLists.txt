@@ -1,6 +1,7 @@
 ## Header
 cmake_minimum_required(VERSION 3.6)
 project(blinky C ASM)
+
 ## Define absolute path to your SDK root folder
 set(SDK_ROOT_FOLDER "C:/Kode/Nordic/SDK_11")
 
