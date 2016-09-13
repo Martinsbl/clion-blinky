@@ -34,4 +34,5 @@ so that it points to where you have installed your GNU toolchain.
 PS:
 If you are unlucky like me you will stumble into a bug in CLion. The bug makes it so that the #include files are not recognized in CLion unless you inlcude a complete relative path to the header file. The project will compile even though you don't, but CLion will not index your project correctly and display helpful auto-complete features.
 ![Bug](/images/Bug.png?raw=true "Bug")
-This bug is reported to JetBrains and discussed [here](https://youtrack.jetbrains.com/issue/CPP-3962)
+
+The bug is reported to JetBrains and discussed [here](https://youtrack.jetbrains.com/issue/CPP-3962).
