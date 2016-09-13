@@ -19,4 +19,5 @@ SECTIONS
   } > RAM
 } INSERT AFTER .data;
 
-INCLUDE "D:/Kode/nRF51/11.0.0/components/toolchain/gcc/nrf5x_common.ld"
+/* Make sure to update this path to fit your system. */
+INCLUDE "C:/Kode/Nordic/SDK_11/components/toolchain/gcc/nrf5x_common.ld"
