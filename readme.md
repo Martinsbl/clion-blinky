@@ -13,4 +13,7 @@ This is a simple example showing you how to setup and configure CLion and get st
 4. Open the project by clicking "Open Project" on the Welcome screen, then navigate to the folder where you cloned the project, and click "OK". 
 ![WelcomeScreen](/images/WelcomeScreen.png?raw=true "Welcome Screen")
 ![SelectPath](/images/SelectPath.jpg?raw=true "Select Path")
-5. 
+5. Click File->Settings->Build, Execution, Deployment->Toolchains and configure CLion like this:
+![Toolchain settings](/images/ToolchainSettings.jpg?raw=true "Toolchain Settings")
+6. Then set the CMake settings like this:
+![CMake settings](/images/CmakeSettings.jpg?raw=true "CMake Settings")
