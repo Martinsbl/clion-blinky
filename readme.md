@@ -10,3 +10,7 @@ This is a simple example showing you how to setup and configure CLion and get st
 1. Download and install CLion and TDM-GCC.
 2. Download and extract an SDK to a folder of your choice.
 3. Clone this example to a folder of your choice. CLion has a buildt in version control system so you can even do this from within CLion. 
+4. Open the project by clicking "Open Project" on the Welcome screen, then navigate to the folder where you cloned the project, and click "OK". 
+![WelcomeScreen](C:\Kode\Nordic\SDK_11\examples\CLion\clion-blinky\images\WelcomeScreen.png "Welcome Screen")
+![SelectPath](C:\Kode\Nordic\SDK_11\examples\CLion\clion-blinky\images\SelectPath.png "Select Path")
+5. 
