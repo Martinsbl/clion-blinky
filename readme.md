@@ -5,7 +5,7 @@ This is a simple example showing you how to setup and configure CLion and get st
 * [CLion](https://www.jetbrains.com/clion/).
 * [TDM-GCC compiler](http://tdm-gcc.tdragon.net/).
 * [SDK from Nordic](http://www.nordicsemi.com/eng/nordic/Products/nRF52-DK/nRF5-SDK-zip/54283). I used SDK V11.
-* [GNU ARM Embedded Toolchain](https://launchpad.net/gcc-arm-embedded/+download)
+* [GNU ARM Embedded Toolchain](https://launchpad.net/gcc-arm-embedded/+download).
 
 # To get started:
 1. Download and install CLion and TDM-GCC.
@@ -28,4 +28,4 @@ so that it points to your nrf5x_common.ld file.
 `CMAKE_FORCE_C_COMPILER("C:/Program Files (x86)/GNU Tools ARM Embedded/5.4 2016q2/bin/arm-none-eabi-gcc.exe" GNU)`
 so that it points to where you have installed your GNU toolchain.
 10. CMake is caching some of your settings and file which can be frustrating source of bugs and errors. The toolchain.cmake file is one of the files that gets cached. So after you have made changes to this file you will need to delete this cache before the changes will take place. You can do this by clicking "Tools->CMake->Show Generated CMake Files in Explorer" and then delete the folder CLion shows you. After that click "Tools->CMake->Reset Cache and Reload Project".
-![Reload project](/images/DeleteCache.jpg?raw=true "Reload project")
+![Reload project](/images/DeleteCache.png?raw=true "Reload project")
